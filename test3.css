@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-link:hover{color: coral; 
+    text-decoration: underline;}
+.search{
+margin-left: 250px;
+}
+body{
+    background-color: black;
+}
+footer{
+    background-color: brown;
+}
+#head{
+    color: white;
+}
+nav{
+    background-color: black;
+
+}
+.parallax {
+    width: 100%;
+    height: 50vh; 
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+    
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+}
+.container{
+    position: relative;
+    width: 100%;
+}
+
+
+
+.parallax-1 {
+    width: 100%;
+    background-image: url(./image/movie3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-2 {
+    background-image: url(./image/movie1.jpg); 
+}
+
+.parallax-3 {
+    background-image: url(./image/movie2.jpg); 
+}
+.nav-bar{
+    position: sticky;
+    top: 0;
+    
+    z-index: 10;
+
+  
+}
+.nav-bar .nav-item a{
+    color:black;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.nav-bar .logo{
+    width: 150px;
+
+}
+.nav-bar .search{
+    width: 500px;
+}
+.hover{
+    display: none;
+    
+}
+.test:hover .hover{
+    display: block;
+
+}
+.hover1{
+    display: none;
+    
+}
+.hover2{
+    display: none;
+    
+}
+.test1:hover .hover1{
+    display: block;
+
+}
+.test2:hover .hover2{
+    display: block;
+
+}
+
